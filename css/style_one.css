@@ -23,6 +23,10 @@ a{
     color: white;
 }
 
+li{
+    list-style: none;
+}
+
 aside{
     padding: 2%;
     border: 3px solid;
@@ -41,6 +45,7 @@ footer{
 
 .link{
     text-decoration: none;
+    list-style: none;
 }
 
 .titulo{
