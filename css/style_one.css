@@ -19,10 +19,15 @@ nav{
     color: white;
 }
 
+a{
+    color: white;
+}
+
 aside{
     padding: 2%;
     border: 3px solid;
 }
+
 
 footer{
     border-top: 3px solid;
@@ -35,9 +40,10 @@ footer{
 }
 
 .link{
-    
+    text-decoration: none;
 }
 
 .titulo{
     font-size: 25px;
+    color: black;
 }
