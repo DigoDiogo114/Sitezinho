@@ -53,13 +53,6 @@ a img:hover{
 #banner{
     width: 100%;
     height: auto;
-    display: inline-block;
-}
-
-#texto{
-    position: relative;
-    display: inline-block;
-    position: absolute;
 }
 
 .noticia{
