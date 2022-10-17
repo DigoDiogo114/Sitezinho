@@ -90,6 +90,12 @@ p.socialIcon{
     border: none;
 }
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 #titulo{
     
 }
