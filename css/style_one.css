@@ -9,17 +9,17 @@ body{
 }
 
 main{
-    width: 50%;
+    width: 55%;
     float: left;
     padding: 5% 5%;
     background-color: grey;
-    margin: 2%;
+    margin: 1.7%;
 }
 
 aside{
     width: 25%;
     float: left;
-    margin: 1%;
+    margin: 1.7% 0%;
     padding: 2%;
     border: 7px solid;
     background-color: rgb(107, 104, 104);
@@ -43,6 +43,7 @@ nav ul{
 }
 
 ul{
+    margin: 0 auto;
     margin: 20px 10%;
 }
 
