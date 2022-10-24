@@ -3,25 +3,29 @@
 body{
     padding-bottom: 0;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url(../images/background.jpg);
 }
 
 main{
+    text-align: justify;
     width: 55%;
     float: left;
     padding: 5% 5%;
-    background-color: grey;
+    background-color: black;
+    color: white;
     margin: 1.7%;
 }
 
 aside{
+    text-align: justify;
     width: 25%;
     float: left;
+    color: white;
     margin: 1.7% 0%;
     padding: 2%;
-    border: 7px solid;
+    border: 7px solid black;
     background-color: rgb(107, 104, 104);
 }
 
@@ -61,7 +65,7 @@ footer{
     border-top: 3px solid;
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center;  
 }
 
 img{
@@ -96,13 +100,27 @@ section{
     flex-direction: column;
 }
 
-#titulo{
+#recomend{
+    margin: 0 auto;
+    margin: 0 0 12% 0;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    list-style-type: none;
     
 }
 
 #banner{
     width: 100%;
     height: auto;
+}
+
+#question{
+    clear: both;
+    align-items: flex-start;
+    background-color: rgb(33, 29, 29);
+    padding: 0 2%;
+    
 }
 
 .noticia{
@@ -125,12 +143,13 @@ section{
 
 .link:hover{
     text-shadow: 2px 2px 2px black;
-    color: pink;
+    color: magenta;
 }
 
 .titulo{
-    font-size: 25px;
-    color: black;
+    font-size: 35px;
+    color: white;
+    width: 100%;
 }
 
 .titulo.link:hover{
@@ -162,3 +181,19 @@ section{
     height: auto;
 }
 
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width: 500px;
+    height: auto;
+}
+
+.centro{
+    width: 86.6%;
+    height: auto;
+}
