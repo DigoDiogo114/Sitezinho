@@ -94,6 +94,10 @@ p.socialIcon{
     border: none;
 }
 
+p.perfil{
+    margin: 0 auto;
+}
+
 section{
     display: flex;
     flex-wrap: wrap;
@@ -119,8 +123,20 @@ section{
     clear: both;
     align-items: flex-start;
     background-color: rgb(33, 29, 29);
-    padding: 0 2%;
-    
+    padding: 0 2%;   
+}
+
+#fixado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(46, 45, 45);
+    margin: 0 0 30px 0;
+}
+
+#fixadomsg{
+    width: 70%;
+    height: auto;
 }
 
 .noticia{
@@ -166,11 +182,17 @@ section{
     box-shadow: 5px 5px 5px black;
 }
 
+.adbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .mensagem{
     padding: 2%;
     border: 1px black solid;
     background-color: rgb(110, 110, 110);
-    margin: 2% 0%;
     box-shadow: 5px 5px 1px black;
 }
 .icon{
@@ -196,4 +218,17 @@ section{
 .centro{
     width: 86.6%;
     height: auto;
+}
+
+.perfil{
+    background-color: rgb(46, 45, 45);
+    background-color: rgb(46, 45, 45);
+    padding: 5px;
+    margin: 20px 0px;
+    border: 2px black solid;
+    border-radius: 30px;
+}
+
+.nick{
+    margin: 0 auto;
 }
