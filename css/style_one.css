@@ -159,18 +159,19 @@ section{
 
 .link:hover{
     text-shadow: 2px 2px 2px black;
-    color: magenta;
+    color: yellow;
 }
 
 .titulo{
     font-size: 35px;
     color: white;
     width: 100%;
+    text-align: left;
 }
 
 .titulo.link:hover{
-    color: purple;
-    text-shadow: 2px 2px 2px pink;
+    color: yellow;
+    text-shadow: 2px 2px 2px rgb(255, 219, 17);
 }
 
 .divisor{
@@ -229,6 +230,32 @@ section{
     border-radius: 30px;
 }
 
-.nick{
-    margin: 0 auto;
+@media screen and (max-width: 531px){
+    main{
+        width: 86.6%;
+    }
+    aside{
+        width: 93%;
+    }
+    #fixadomsg{
+        width: 90%;
+    }
+    li{
+        align-items: center;
+        margin-bottom: 3%;
+        background-color: grey;
+        border-radius: 30px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+
+    li a{
+        display: inline-block;
+        padding: 0 50px;
+    }
+
+    li:hover{
+        background-color: rgb(145, 94, 0);
+    }
 }
