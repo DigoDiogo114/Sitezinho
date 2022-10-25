@@ -258,4 +258,8 @@ section{
     li:hover{
         background-color: rgb(145, 94, 0);
     }
+    iframe{
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
